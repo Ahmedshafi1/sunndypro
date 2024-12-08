@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: brown;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    align-items: center;
+    
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: bisque;
+    width: 210px;
+    height: 420px;
+    border-radius: 29px;
+    text-align: center;
+    
+    
+}
+.box1 img{
+    width: 130px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 0;
+    
+    border-radius: 20px;
+    border-top-left-radius:20px ;
+    
+
+
+}
+h1{
+    text-align: center;
+    padding-right: 40px;
+}
+p{
+    padding: 0px 20px;
+}
